@@ -22,6 +22,7 @@
           colors: {
             clifford: '#da373d',
             button: '#FF4240' ,
+            images: 'rgba(19, 19, 24, 0.5)',
           }
         }
       }
@@ -113,28 +114,29 @@
 </div>
 <div class="border-dashed border-b-2 mt-10"></div>
 
-<!-- loading section -->
-<div class="lg:flex mt-20 justify-center gap-40 ">
+<!-- progress section -->
+<div class="lg:flex mt-20 justify-center gap-20 ">
   <div class="text-center"  >
-    <span class="loading loading-spinner text-error w-[150px] h-[150px] "></span>
+    <div class="radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div>
   
     <h3 class=" text-1xl font-medium">Prayer Facility</h3>
     <p class="font-normal text-xs mt-5  text-slate-400">Amet consectetur. Condimentum dignissim adipiscing .</p>
   </div>
 
   <div class="text-center">
-    <span class="loading loading-spinner text-accent w-[150px] h-[150px]"></span>
+    <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
   <h3 class=" text-1xl font-medium" >Experienced Coach</h3>
   <p class="font-normal text-xs mt-5  text-slate-400">Amet consectetur. Condimentum dignissim adipiscing .</p>
 </div>
 
   <div class="text-center">
-    <span class="loading loading-spinner text-warning w-[150px] h-[150px]"></span>
+    <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
   <h3 class="text-center text-1xl font-medium">Senior Player</h3>
   <p class="font-normal text-xs mt-5 text-center text-slate-400">Amet consectetur. Condimentum dignissim adipiscing .</p>
 </div>
 
-  <div class="text-center"><span class="loading loading-spinner text-info w-[150px] h-[150px]"></span>
+  <div class="text-center">
+    <div class="radial-progress text-blue-500 " style="--value:80;" role="progressbar ">80%</div>
     <h3 class="text-center text-1xl font-medium">Training Ground</h3>
     <p class="font-normal text-xs mt-5 text-center text-slate-400">Amet consectetur. Condimentum dignissim adipiscing .</p>
   </div>
@@ -149,10 +151,66 @@
 </div>
 <div class="border-dashed border-b-2 mt-10"></div>
 
+<!-- program grid section -->
+
+<div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1  gap-5 md:gap-5 sm:gap-5 mt-10">
+
+ 
+
+  <div class="card lg:w-120 lg:h-96 bg-base-100 shadow-xl image-full">
+    <figure class="contrast-150"><img src="Images/2.png" alt="Shoes" /></figure>
+    <div class="card-body lg:relative lg:top-40 ">
+      <div >
+      <h2 class="card-title text-2xl font-bold  mb-2">Teenager Program</h2>
+      <p class="font-normal text-l  text-yellow-50"> Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+        </div>
+        <div>
+        <a class="btn bg-button w-40 border-0 text-white mt-2">Register Now!</a>
+       </div>
+      
+    </div>
+  </div>
 
 
+  <div class="card lg:w-120 lg:h-96 bg-base-100 shadow-xl image-full">
+    <figure class="contrast-150"><img src="Images/3.png" alt="Shoes" /></figure>
+    <div class="card-body lg:relative lg:top-40 ">
+      <div >
+      <h2 class="card-title text-2xl font-bold  mb-2">Teenager Program</h2>
+      <p class="font-normal text-l  text-yellow-50"> Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+        </div>
+        <div>
+        <a class="btn bg-button w-40 border-0 text-white mt-2">Register Now!</a>
+       </div>
+      
+    </div>
+  </div>
+  
+  </div>
 
+
+  <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1  mt-5 ">
+
+  <div class="card lg:w-230 lg:h-[600px]  bg-base-100 shadow-xl image-full">
+    <figure class="contrast-150"><img src="Images/4.png" alt="Shoes" /></figure>
+    <div class="card-body lg:relative lg:top-60 ">
+      <div >
+      <h2 class="card-title text-2xl font-bold  mb-2">Professional Program</h2>
+      <p class="font-normal text-l  text-yellow-50"> Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+        </div>
+        <div>
+        <a class="btn bg-button w-40 border-0 text-white mt-2">Resgister Now!</a>
+       </div>
+      
+    </div>
+  </div>
+ 
+</div>
     </main>
+
 
 
     <footer class="container mx-auto px-10">
